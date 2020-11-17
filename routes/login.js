@@ -29,7 +29,7 @@ module.exports = function login () {
     email = `${req.body.email || ''}`;
     models.sequelize.query(`SELECT * FROM Users WHERE email = ? AND password = '${insecurity.hash(req.body.password || '')}' AND deletedAt IS NULL`, { model: models.User, plain: true },
     {
-      replacements: [criteria, criteria]
+      replacements: [email]
     })
       .then((authenticatedUser) => {
         let user = utils.queryResultToJson(authenticatedUser)
