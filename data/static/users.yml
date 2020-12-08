@@ -244,7 +244,7 @@
 -
   email: mainadmin
   password: 'admin123main'
-  key: main_admin
+  key: mainadmin
   role: 'admin'
   securityQuestion:
     id: 2
