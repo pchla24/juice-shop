@@ -25,7 +25,58 @@
     - fullName: 'Administrator'
       cardNum: 4024007105648108
       expMonth: 4
-      expYear: 2086      
+      expYear: 2086   
+
+- 
+  email: main_admin
+  password: 'admin123.main_'
+  key: main_admin
+  role: 'admin'
+  securityQuestion:
+    id: 1
+    answer: 'auvjdyeibklo'
+  feedback:
+    comment: '2/10, highly recommended!'
+    rating: 1
+  address:
+    - fullName: 'Main Administrator'
+      mobileNum: 1234567890
+      zipCode: '0000'
+      streetAddress: '1111 Test Street'
+      city: 'Warsaw'
+      state: 'Mazovian'
+      country: 'Poland'
+  card:
+    - fullName: 'Main Card'
+      cardNum: 1234567891234567
+      expMonth: 2
+      expYear: 2081  
+
+- 
+  email: baim
+  password: '20baimi20!'
+  key: baim
+  role: 'customer'
+  securityQuestion:
+    id: 1
+    answer: 'auvjdyeibklo'
+  feedback:
+    comment: '1/10, THATS A SCAM!'
+    rating: 1
+  address:
+    - fullName: 'Baimi Imiab'
+      mobileNum: 1234567890
+      zipCode: '0000'
+      streetAddress: '222 Test Road'
+      city: 'Warsaw'
+      state: 'Mazovian'
+      country: 'Poland'
+  card:
+    - fullName: 'My Card'
+      cardNum: 1234567890987654
+      expMonth: 2
+      expYear: 2081  
+
 -
   email: jim
   password: 'ncc-1701'
